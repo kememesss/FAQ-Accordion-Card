@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, hsl(240, 73%, 65%) 0%, hsl(240, 73%, 65%) 20%, hsl(273, 75%, 66%) 100%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1070px;
+    height: 595px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 0px 20px 60px -20px;
+
+}
+
+.content {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBx {
+    position: relative;
+    margin: 10px 0px;
+    border-bottom: 1px solid rgb(199, 198, 198);
+    
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px 20px 20px 0px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    
+}
+
+.label:hover {
+    color: orangered;
+}
+
+.arrow-icon.arrowup,
+.arrowdown {
+    margin-left: auto;
+}
+
+.laman {
+    border: none;
+    padding: 0px 0px 20px 0px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.left img {
+    display: flex;
+    width: 600px;
+    margin-right: 80px;
+
+}
+
+.accordion {
+    width: 400px;
+    
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 160px;
+}
+
+.header {
+    font-size: 15px;
+}
+
+img {
+    overflow: hidden;
+}
+
+#main {
+    position:absolute;
+    top:80px;
+    left:-80px;
+    width:530px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#box {
+    position: relative;
+    width:200px;
+    left:-90px;
+    top:48px;
+    z-index: 3;
+}
+
+#shadowBG {
+    position:absolute;
+    bottom:-100px;
+    left:-550px;
+    width:1000px;
+    z-index: 0;
+    overflow: hidden;
+}
